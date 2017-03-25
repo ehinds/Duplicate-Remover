@@ -1,0 +1,2 @@
+# Duplicate-Remover
+This is an Assembly Language code for the MSP430G2553 that sets up an array LIST_IN in R5 and LIST_OUT in R7. The code initializes LIST_IN and then copies LIST_IN to LIST_OUT. The first element of the array is the number of elements in the array. While copying, if a duplicate is found in the array it will ignore it and move to the next non-duplicate element in the array while reducing the number of elements stored in the first element of LIST_OUT. This code ONLY works if the array is pre-sorted as it was designed specifically for that purpose.
